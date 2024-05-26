@@ -1,4 +1,4 @@
-num1 =[1]
+num1 =[1,31,3,4,51]
 num2 =[]
 m=1
 n=0
@@ -24,5 +24,4 @@ def mergeSort(num1,num2,m,n):
                 i+=1
                 j+=1
     return(num1)
-
 print(mergeSort(num1,num2,m,n))
